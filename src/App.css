@@ -226,7 +226,7 @@ ion-icon {
 /*=============================== CurrentPageContent ===============================*/
 .current-page-content{
   margin-top: .5rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex-grow: 1;
   overflow: auto;
 }
