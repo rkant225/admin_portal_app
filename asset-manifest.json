@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/admin_portal_app/static/css/main.53a3e8b5.css",
-    "main.js": "/admin_portal_app/static/js/main.b9b371e6.js",
+    "main.js": "/admin_portal_app/static/js/main.5f751ec2.js",
     "static/js/787.48e4a60f.chunk.js": "/admin_portal_app/static/js/787.48e4a60f.chunk.js",
     "static/media/alexander.jpg": "/admin_portal_app/static/media/alexander.d424374021f4e4c70076.jpg",
     "index.html": "/admin_portal_app/index.html",
     "main.53a3e8b5.css.map": "/admin_portal_app/static/css/main.53a3e8b5.css.map",
-    "main.b9b371e6.js.map": "/admin_portal_app/static/js/main.b9b371e6.js.map",
+    "main.5f751ec2.js.map": "/admin_portal_app/static/js/main.5f751ec2.js.map",
     "787.48e4a60f.chunk.js.map": "/admin_portal_app/static/js/787.48e4a60f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53a3e8b5.css",
-    "static/js/main.b9b371e6.js"
+    "static/js/main.5f751ec2.js"
   ]
 }
