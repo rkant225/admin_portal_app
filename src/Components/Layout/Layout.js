@@ -19,7 +19,7 @@ const Layout = () => {
     const MainNavItemComponent = (props)=>{
         const {path, iconName, title} = props;
         return(
-            <NavLink to={path} title={title} className={({isActive})=>getNavLinkClassName(isActive)} target={'_blank'}>
+            <NavLink to={path} title={title} className={({isActive})=>getNavLinkClassName(isActive)}>
                 <span className='nav-icon'>
                     <ion-icon name={iconName}></ion-icon>
                 </span>
@@ -29,20 +29,20 @@ const Layout = () => {
     }
 
     const NAV_ITEMS = [
-        {title : 'Dashboard', path : '/dashboard', iconName : 'home-outline'},
-        {title : 'Customers', path : '/customer', iconName : 'people-outline'},
-        {title : 'Message', path : '/message', iconName : 'chatbubble-outline'},
-        {title : 'Help', path : '/help', iconName : 'help-circle-outline'},
-        {title : 'Setting', path : '/setting', iconName : 'settings-outline'},
-        {title : 'Password', path : '/password', iconName : 'lock-closed-outline'},
-        {title : 'SignOut', path : '/signOut', iconName : 'log-out-outline'},
+        {title : 'Dashboard', path : '/admin_portal_app/dashboard', iconName : 'home-outline'},
+        {title : 'Customers', path : '/admin_portal_app/customer', iconName : 'people-outline'},
+        {title : 'Message', path : '/admin_portal_app/message', iconName : 'chatbubble-outline'},
+        {title : 'Help', path : '/admin_portal_app/help', iconName : 'help-circle-outline'},
+        {title : 'Setting', path : '/admin_portal_app/setting', iconName : 'settings-outline'},
+        {title : 'Password', path : '/admin_portal_app/password', iconName : 'lock-closed-outline'},
+        {title : 'SignOut', path : '/admin_portal_app/signOut', iconName : 'log-out-outline'},
     ];
 
     return (
         <div className='navigation-page-container'>
             <div className='main-navigation-container colapsed' id='main-navigation-container-id'>
                 <div className='nav-list'>
-                    <NavLink to='/' className={'brand-name-logo-container'} title='Home'>
+                    <NavLink to='/admin_portal_app' className={'brand-name-logo-container'} title='Home'>
                         <span className='nav-icon'>
                             <ion-icon name="logo-apple" ></ion-icon>
                         </span>

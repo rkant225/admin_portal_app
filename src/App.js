@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='app-container'>
       <Routes>
-        <Route path="/" element={<Layout/>}>
+        <Route path="/admin_portal_app" element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path='dashboard' element={<Dashboard/>}/>
           <Route path='setting' element={<Setting/>}/>

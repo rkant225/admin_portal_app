@@ -1,6 +1,6 @@
 {
   "homepage": "https://rkant225.github.io/admin_portal_app",
-  "name": "admin_dashboard_app",
+  "name": "admin_portal_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
