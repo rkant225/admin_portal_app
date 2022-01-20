@@ -92,7 +92,7 @@ const Dashboard = () => {
                             </h2>
                         </div>
                         <div className='dashboard-recent-orders-control'>
-                            <a href='/admin_portal_app/dashboard'>View All</a>
+                            <a href='#'>View All</a>
                         </div>
                     </div>
                     <div className='dashboard-recent-order-table-container'>
@@ -132,7 +132,7 @@ const Dashboard = () => {
                             </h2>
                         </div>
                         <div className='dashboard-recent-orders-control'>
-                            <a href='/admin_portal_app/dashboard'>View All</a>
+                            <a href='#'>View All</a>
                         </div>
                     </div>
 
