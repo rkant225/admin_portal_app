@@ -19,7 +19,7 @@ const Layout = () => {
     const MainNavItemComponent = (props)=>{
         const {path, iconName, title} = props;
         return(
-            <NavLink to={path} title={title} className={({isActive})=>getNavLinkClassName(isActive)}>                
+            <NavLink to={path} title={title} className={({isActive})=>getNavLinkClassName(isActive)} target={'_blank'}>
                 <span className='nav-icon'>
                     <ion-icon name={iconName}></ion-icon>
                 </span>
