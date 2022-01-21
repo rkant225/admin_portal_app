@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/admin_portal_app/static/css/main.e70a49a6.css",
-    "main.js": "/admin_portal_app/static/js/main.a57700e7.js",
+    "main.css": "/admin_portal_app/static/css/main.238d9574.css",
+    "main.js": "/admin_portal_app/static/js/main.a3910382.js",
     "static/js/787.3dca2a00.chunk.js": "/admin_portal_app/static/js/787.3dca2a00.chunk.js",
     "static/media/alexander.jpg": "/admin_portal_app/static/media/alexander.d424374021f4e4c70076.jpg",
     "index.html": "/admin_portal_app/index.html",
-    "main.e70a49a6.css.map": "/admin_portal_app/static/css/main.e70a49a6.css.map",
-    "main.a57700e7.js.map": "/admin_portal_app/static/js/main.a57700e7.js.map",
+    "main.238d9574.css.map": "/admin_portal_app/static/css/main.238d9574.css.map",
+    "main.a3910382.js.map": "/admin_portal_app/static/js/main.a3910382.js.map",
     "787.3dca2a00.chunk.js.map": "/admin_portal_app/static/js/787.3dca2a00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e70a49a6.css",
-    "static/js/main.a57700e7.js"
+    "static/css/main.238d9574.css",
+    "static/js/main.a3910382.js"
   ]
 }
