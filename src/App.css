@@ -387,9 +387,11 @@ ion-icon {
 .dashboard-recent-order-table tbody tr{
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
+
 .dashboard-recent-order-table tbody tr:last-child{
   border-bottom: none;
 }
+
 .dashboard-recent-order-table tbody tr:hover{
   background-color: var(--primaryColor);
   color: white;
@@ -439,44 +441,28 @@ ion-icon {
   box-shadow: 3px 3px 10px 1px grey;
 }
 
-.dashboard-recent-customers-container{
+.dashboard-recent-customers-table-container{
   height: 400px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: .5rem;
   overflow: auto;
+  /* margin-top: .5rem; */
+  /* padding: .5rem; */
 }
+
 /* Custom scroll bar */
-.dashboard-recent-customers-container::-webkit-scrollbar {
+.dashboard-recent-customers-table-container::-webkit-scrollbar {
   width: .4rem;
 }
  
-.dashboard-recent-customers-container::-webkit-scrollbar-track {
+.dashboard-recent-customers-table-container::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px transparent;
 }
  
-.dashboard-recent-customers-container::-webkit-scrollbar-thumb {
+.dashboard-recent-customers-table-container::-webkit-scrollbar-thumb {
   background-color: black;
   border-radius: 1rem;
 }
 
-.dashboard-recent-customer{
-  width: 160px;
-  height: 70px;
-  padding: .2rem;
-  border-radius: .3rem;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 3px 3px 10px 1px grey;
-}
 
-.dashboard-recent-customer:hover{
-  background-color: var(--primaryColor);
-  color: white;
-}
 
 .customer-image{
   height: 50px;
@@ -489,8 +475,36 @@ ion-icon {
   align-items: center;
 }
 
-.customer-name-phone-container{
+/* .customer-name-phone-container{
 
+} */
+
+.dashboard-recent-customers-table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* To make table header fixed, so that it remain on top while scrolling to bottom of list */
+.dashboard-recent-customers-table thead {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  z-index: 1; 
+  background: #fff; 
+}
+
+.dashboard-recent-customers-table thead tr{
+  font-weight: 600;
+}
+.dashboard-recent-customers-table td{
+  padding: .2rem;
+}
+.dashboard-recent-customers-table tbody tr{
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.dashboard-recent-customers-table tbody tr:hover{
+  color: white;
+  background-color: var(--primaryColor);
 }
 
 

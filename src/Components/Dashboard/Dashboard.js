@@ -123,6 +123,7 @@ const Dashboard = () => {
                     
 
                 </div>
+                
                 <div className='dashboard-recent-customers-section-container'>
 
                     <div className='dashboard-recent-orders-section-header-container'>
@@ -136,22 +137,35 @@ const Dashboard = () => {
                         </div>
                     </div>
 
-                    <div className='dashboard-recent-customers-container'>
-                        {RECENT_CUSTOMERS.map((customer)=>{
-                            return(
-                                <div className='dashboard-recent-customer'>
-                                <div className='customer-image' style={{'--bgColor' : getRandomHexColor()}}>
-                                    <ion-icon name="person-outline"></ion-icon>
-                                </div>
-                                <div className='customer-name-phone-container'>
-                                    <div>#{customer.customerId}</div>
-                                    <div>{customer.name}</div>
-                                    <div>{customer.mobile}</div>
-                                </div>
-                            </div>
-                            );
-                        })}
-                    </div>
+                        <div className='dashboard-recent-customers-table-container'>
+                            <table className='dashboard-recent-customers-table'>
+                                <thead>
+                                    <tr>
+                                        <td>Customer</td>
+                                        <td>ID</td>
+                                        <td>Name</td>
+                                        <td>Mobile</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    {RECENT_CUSTOMERS.map((customer)=>{
+                                        return(
+                                            <tr>
+                                                <td>
+                                                    <div className='customer-image' style={{'--bgColor' : getRandomHexColor()}}>
+                                                        <ion-icon name="person-outline"></ion-icon>
+                                                    </div>
+                                                </td>
+                                                <td>{customer.customerId}</td>
+                                                <td>{customer.name}</td>
+                                                <td>+91-{customer.mobile}</td>
+                                            </tr>
+                                        );
+                                    })}
+                                </tbody>
+                            </table>
+                        </div>
                 </div>
             </div>
 
